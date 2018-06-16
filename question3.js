@@ -11,7 +11,11 @@
 
 
 // ** SOLUTION **
-// In this version we set up our combinations array to be size amount + 1, then set the first value in combinations to 1. We then loop through each of the denominations given to us. Inside of that loop, we loop through the combinations array, each time incrementing the current combinations array value by the difference between the value and the coin only if the value at that particular point in the iteration is greater than the value of the coin. At the end of both loops, we return the last element in the combinations array which is our answer.
+// In this version we set up our combinations array to be size amount + 1, then set the first value in combinations to 1. 
+// We then loop through each of the denominations given to us. 
+// Inside of that loop, we loop through the combinations array, each time incrementing the current combinations array value by the difference between the value and the coin only if the value at that particular point in the iteration is greater than the value of the coin. 
+// At the end of both loops, we return the last element in the combinations array which is our answer.
+
 function changePossibilities(amount, denominations) {
 
   let combinations = [];
